@@ -10,6 +10,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      checkerboardOffscreenLayers: false,
       home: Scaffold(
         appBar: AppBar(
           title: Text('Aufgabe 1'),
